@@ -27,13 +27,13 @@ For refA < len(A) && refB < len(B) {
 	If ok, intersection := intersection(A[refA], B[refB]);ok{
 		C = append(C, intersection)
 	}
-if A[refA].End < B[refB],End {
+        if A[refA].End < B[refB],End {
            // 3 < 4
            // refA = 1 ([6, 9]), refB = 0 ([1,4])
-		refA++
-} else {  // [6,9] vs [1, 4], 9 > 4  
-	refB++
-}
+           refA++
+        } else {  // [6,9] vs [1, 4], 9 > 4  
+	    refB++
+        }
 }
 
 
