@@ -46,7 +46,7 @@ func intersection(range1, range2 Range) (bool, Range) {
 	intesectionEnd = min(range1.End, range2.End)
 	Is intesectionStart < intesectionEnd {  
 		return (True, Range(intesectionStart, intesectionEnd))
-}
-Return (False, Range())
+        }
+        Return (False, Range())
 }
 ```
