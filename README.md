@@ -40,8 +40,8 @@ if A[refA].End < B[refB],End {
 func intersection(range1, range2 Range) (bool, Range) {
 	// a = [2,3], b = [1,4]
            // 0 1 2 3 4 5 5 6 7
-           //       X X
-           //   X        X
+           //     X X
+           //   X     X
 	intesectionStart = max(range1.Begin, range2.Begin)
 	intesectionEnd = min(range1.End, range2.End)
 	Is intesectionStart < intesectionEnd {  
