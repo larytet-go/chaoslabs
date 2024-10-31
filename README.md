@@ -4,12 +4,16 @@ Given two sorted and distinct lists of ranges A and B, return a merged list C co
 [a,b] is the mathematical notation of a range. It represents the set of all integers between a and b, including a and b.
 Example:
 Input:
-A = {[2,3], [6, 9], [15, 19]} 
-B = {[1,4], [5, 7], [8, 16], [22, 27]}         
+```
+A = {[2,3], [6, 9], [15, 19]}
+B = {[1,4], [5, 7], [8, 16], [22, 27]}
+```
 Output:
+```
 C= {[2,3], [6, 7], [8, 9], [15, 16]}
+```
 
-
+```go
 Type Range struct {
 	Begin int
 	End int
@@ -45,3 +49,4 @@ func intersection(range1, range2 Range) (bool, Range) {
 }
 Return (False, Range())
 }
+```
