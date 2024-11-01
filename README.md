@@ -45,7 +45,8 @@ func intersection(range1, range2 Range) (bool, Range) {
     //   X     X
     intersectionStart := max(range1.Begin, range2.Begin)
     intersectionEnd := min(range1.End, range2.End)
-    if intersectionStart < intersectionEnd {
+    // <= top hande sngle value ranges correctly, for example [3, 3]
+    if intersectionStart <= intersectionEnd {
         return true, Range{intersectionStart, intersectionEnd}
     }
     return false, Range{}
