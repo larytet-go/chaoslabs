@@ -1,6 +1,8 @@
 # chaoslabs 
 
-https://www.linkedin.com/company/chaoslabs/about/
+https://www.linkedin.com/company/chaos-labs-xyz/
+
+
 
 Given two sorted and distinct lists of ranges A and B, return a merged list C containing all intersections between any two ranges in A and B.
 [a,b] is the mathematical notation of a range. It represents the set of all integers between a and b, including a and b.
